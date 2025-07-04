@@ -1,0 +1,53 @@
+{
+  "name": "roraima",
+  "version": "1.0.0",
+  "description": "SDK oficial para Roraima AI - Procesa texto, imágenes y audio con IA",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"SDK listo para usar\"",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "roraima",
+    "ai",
+    "artificial-intelligence",
+    "roraima-ai",
+    "sdk",
+    "api",
+    "text-generation",
+    "image-analysis",
+    "audio-transcription",
+    "machine-learning",
+    "nlp",
+    "computer-vision"
+  ],
+  "author": "Mario Gutierrez",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariogutierrez/roraima.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mariogutierrez/roraima/issues"
+  },
+  "homepage": "https://roraima.ai"
+}
